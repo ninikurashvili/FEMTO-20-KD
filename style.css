@@ -1,0 +1,159 @@
+.top{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+margin-left: 50px;
+margin-right: 50px;
+align-items: center;
+margin-top:24px;
+margin-bottom: 38px;
+}
+
+
+section div h1{
+    font-style: italic;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgba(188,76,42 , 1 );
+}
+header{
+    width: 100%;
+    
+}
+header nav{
+    width: fit-content;
+    margin: auto;
+}
+header nav ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+header nav ul li a{
+    color: black;
+   text-decoration: none;
+    padding: 5px 10px;
+}
+
+header section#top nav ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+nav#icons ul li{
+    display: inline-block;
+    padding: 0;
+    padding-right: 6px;
+    color: black;
+    text-decoration: none;
+}
+
+div#search{
+
+    display:flex;
+    align-items: center;
+    padding:0 10px;
+    border-bottom:1px solid rgba(188,76,42 , 1 );
+}
+div#search input{
+    border:none;
+    margin-left: 12px;
+    color:rgba(188,76,42 , 1 );
+}
+div#search input::placeholder{
+    color: rgba(188,76,42 , 1 );
+}
+#space{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+    width: auto;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shop{
+   
+    border:1px solid white;
+    padding:20px;
+    background-color:transparent;
+    color: white;
+    margin:auto;
+    width: 50%;
+    margin-top: 50px;
+
+}
+.adeline{
+    margin-left: 125px;
+}
+.shop-placeholder{
+    display:flex;
+    flex-direction: column;
+}
+
+.banner h1{
+    color:white;
+    font-style: normal;
+    font-weight: bold;
+}
+body main section.banner{
+    background-image: url("./assets/ea71bb_f6afb11f2c8f406ca1c8993c2eca99e7~mv2_d_11495_6131_s_4_2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+article{
+    text-align: center;
+}
+button#shop:hover{
+    background-color: white;
+    color:rgba(188,76,42 , 1 );
+}
+
+ #login{
+    
+border-color: white;
+background-color: white;
+border: none;
+display: flex;
+align-items: center;
+margin-left: 20px;
+margin-right: 20px;
+font-size: 16px;
+
+    
+}
+#login span{
+    color:rgba(188,76,42 , 1 );
+}
+#cart{
+    color:rgba(188,76,42 , 1 );
+    font-size: 16px;
+}
+#mainNav{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+#mainNav ul li{
+    margin-right: 50px;
+}
+#login .icon{
+    display: flex;
+    width: 23px;
+    height: 23px;
+    border:none;
+    border-radius: 50px;
+    background-color:rgba(188,76,42 , 1 );
+    justify-content: center;
+    align-items: center;
+    margin-right: 14px;
+    
+
+}
